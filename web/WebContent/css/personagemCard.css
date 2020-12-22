@@ -1,0 +1,34 @@
+.img-personagem{
+     height: 200px;
+     width: 200px;
+     margin: 8px auto;
+     border-radius: 5px;
+}
+
+.card{
+     margin: 30px;
+     border-radius: 7px;
+}
+
+
+.personagem-link:hover{
+     text-decoration: none;
+}
+
+.card-title{
+	text-align: center;
+	font-family:BTTF;
+	color: var(--orange);
+}
+
+
+.card{
+     font-size: 1.2em;
+     color: black;
+     box-shadow: 4px 2px 30px rgba(0, 0, 0, 0.5);
+}
+.card h5{
+     letter-spacing: 1px;
+     font-weight: 600;
+     height: 60px;
+}

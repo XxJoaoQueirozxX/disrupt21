@@ -1,0 +1,122 @@
+*{
+     margin: 0;
+     padding: 0;
+     box-sizing: border-box;
+}
+body{
+     height: 100vh;
+     width: 100%;
+     background-image: url("img/bttf.jpg");
+     background-size: cover;
+     background-attachment: fixed;
+     font-family: Oswald;
+     overflow: auto;
+     
+}
+
+
+
+#conteudo{
+     overflow: auto;
+     display: flex;
+     flex-direction: column;
+     position: relative;
+     
+}
+
+
+.header{
+	display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	align-items: center;
+}
+
+
+.header h1{
+	font-family: BTTF;
+	width: 100%;
+	font-size: 50px;
+	color: var(--orange);
+	margin-top:14px;
+	margin-right: 50px;
+	text-align: center;
+}
+
+
+.main{
+     padding-bottom: 50px;
+}
+
+.footer{
+     position: absolute;
+     bottom: 30px;
+     right: 30px;
+     margin: 0 auto;
+     height: 80px;
+}
+
+.footer img{
+     margin-top: 40px;
+     height: 50px;
+}
+
+
+
+.main > p{
+	 margin-top: 4%;
+     color: var(--orange);
+     text-align: justify;
+}
+
+
+.consequencia > h3{
+     color: var(--blue);
+     font-family: BTTF;
+     padding: 5px 0;
+     letter-spacing: 1px;
+     text-align: left;
+}
+
+.consequencia > ul{
+     color: #c3c3c3;
+     text-align: justify;
+}
+
+.consequencia > ul li {
+	list-style: none;
+    font-size: 1.2em;
+	
+}
+
+#personagens h3{
+	display: block;
+	font-family: BTTF;
+	text-align: center;
+	color: var(--orange);
+}
+
+#personagens div{
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+
+
+@media (max-width: 720px){
+	.header h1{
+		font-size: 30px;
+	}
+	.main p {
+	     font-size: 1.5em;
+	
+	}
+	
+}
+
+@media(min-width: 721px){
+	.main p{
+		font-size:2em;
+	}
+}
