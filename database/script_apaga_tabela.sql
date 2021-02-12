@@ -1,5 +1,0 @@
-DROP TABLE t_bttf_acontecimento CASCADE CONSTRAINTS;
-DROP TABLE t_bttf_consequencia CASCADE CONSTRAINTS;
-DROP TABLE t_bttf_personagem CASCADE CONSTRAINTS;
-DROP TABLE t_bttf_personagem_acont CASCADE CONSTRAINTS;
-
